@@ -59,4 +59,7 @@ apt install -y neofetch
 apt autoremove -y
 apt clean
 
-echo "Installation complete. Please restart your shell or source /etc/profile to use Go (Golang) 1.20."
+# Reboot the system
+reboot
+
+echo "Installation complete. The system will now reboot."
